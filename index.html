@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>dermalogica skin sensitivity </title>
+
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+  <link href="css/css-circular-prog-bar.css" rel="stylesheet">
+  <link href="css/pulse-animation.css" rel="stylesheet">
+  <link href="css/default.css" rel="stylesheet">
+</head>
+
+<body class="mar hei-vh">
+
+  <header>
+    <div class="padd bg-clr1 center">
+      <img src="images/Logo.png" class="derm-logo" />
+      <img src="images/search.png" class="search right" />
+    </div>
+  </header>
+
+  <div class="ul-font main-text">
+    skin<br />sensitivity<br />
+  </div>
+
+
+  <div class="pulse-container">
+    <div class="circle1">
+      <div class="circle2">
+        <div class="circle3">
+        </div>
+      </div>
+    </div>
+    <div class="circle4">
+      <div class="circle5">
+      </div>
+    </div>
+    <div class="horizontal-div">
+    </div>
+  </div>
+
+
+  <div class="lt-font sub-text">
+    risk index
+  </div>
+
+  <div class="fetch-box">
+    <div class="fetch-circle1">
+      <div class="fetch-circle2">
+        <div class="fetch-circle3">
+        </div>
+      </div>
+    </div>
+    <div class="fetch-circle4">
+    </div>
+    <span class="mar-l lt-font">fetching your location</span>
+  </div>
+
+
+  <script src="js/jquery-2.2.2.min.js"></script>
+
+  <script>
+    // $(document).ready(function() {
+    //   $(window).load(function() {
+    //     setTimeout(function() {
+    //       $(".pulse-container").animate({
+    //         width: '104%'
+    //       }, 3000, 'linear');
+    //     }, 1000);
+    //
+    //     setTimeout(function() {
+    //       $(".circle1").show()
+    //     }, 4000);
+    //   });
+    // });
+
+    $(document).ready(function() {
+      $(window).load(function() {
+
+        if ($(window).width() <= 415) {
+          setTimeout(function() {
+            $(".pulse-container").animate({
+              width: '104%'
+            }, 3000, 'linear');
+            $(".horizontal-div").css({
+              'width': '94.2%'
+            });
+          });
+
+          setTimeout(function() {
+            $(".circle1").show()
+          }, 4000);
+
+        } else if ($(window).width() <= 769) {
+          setTimeout(function() {
+            $(".pulse-container").animate({
+              width: '102%'
+            }, 3000, 'linear');
+            $(".horizontal-div").css({
+              'width': '97%'
+            });
+          });
+
+          setTimeout(function() {
+            $(".circle1").show()
+          }, 4000);
+        } else if ($(window).width() <= 990) {
+          setTimeout(function() {
+            $(".pulse-container").animate({
+              width: '101.5%'
+            }, 3000, 'linear');
+            $(".horizontal-div").css({
+              'width': '98%'
+            });
+          });
+
+          setTimeout(function() {
+            $(".circle1").show()
+          }, 4000);
+        } else {
+          setTimeout(function() {
+            $(".pulse-container").animate({
+              width: '101.5%'
+            }, 3000, 'linear');
+            $(".horizontal-div").css({
+              'width': '99%'
+            });
+            $(".circle1").css({
+              'width': '220px',
+              'height': '220px',
+              'left': '-85px'
+            });
+            $(".circle2").css({
+              'width': '140px',
+              'height': '140px'
+            });
+            $(".circle3").css({
+              'width': '90px',
+              'height': '90px'
+            });
+            $(".circle4").css({
+              'width': '50px',
+              'height': '50px',
+              'top': '0',
+              'bottom': '0',
+              'margin': 'auto',
+              'left': '0px'
+            });
+            $(".circle5").css({
+              'width': '30px',
+              'height': '30px'
+            });
+            $(".horizontal-div").css({
+              'margin': '26px 0',
+              'width': '98%'
+            });
+            $(".pulse-container").css({
+              'height': '55px'
+            });
+          });
+
+          setTimeout(function() {
+            $(".circle1").show()
+          }, 4000);
+        }
+
+      });
+    });
+  </script>
+
+</body>
+
+</html>

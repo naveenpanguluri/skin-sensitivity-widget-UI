@@ -1,0 +1,459 @@
+@import '../fonts/stylesheet.css';
+body {
+  font-size: 21px;
+  color: #fff;
+  background: linear-gradient(to bottom left, #34aee4 0%, #9794c8 45%);
+}
+
+.hei-vh {
+  height: 100vh;
+}
+
+.hei-per {
+  height: 100%;
+}
+
+.thin-font {
+  font-family: 'Helvetica Neue TH';
+}
+
+.ul-font {
+  font-family: 'Helvetica Neue ULLT';
+}
+
+.lt-font {
+  font-family: 'Helvetica Neue LT Std';
+}
+
+.roman-font {
+  font-family: 'Helvetica Neue LT Roman';
+}
+
+.i-font {
+  font-family: 'Helvetica Neue LTIT';
+}
+
+.main-text {
+  font-size: 60px;
+  line-height: 0.95;
+  width: 268px;
+  height: 126px;
+  top: -160px;
+  bottom: 0;
+  left: 0;
+  right: -75px;
+  position: absolute;
+  margin: auto;
+  letter-spacing: 5px;
+}
+
+.sub-text {
+  width: 190px;
+  height: 26px;
+  font-size: 26px;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+}
+
+.sub-box1 {
+  width: 44%;
+  padding: 10px 10px 0;
+}
+
+.derm-logo {
+  width: 165px;
+  height: auto;
+}
+
+.mar {
+  margin: 0 !important;
+}
+
+.mar1 {
+  margin: 18px 0 0;
+}
+
+.mar-l {
+  margin-left: 40px;
+}
+
+.mar-top {
+  margin-top: 0;
+}
+
+.mar-top1 {
+  margin-top: 15px;
+}
+
+.mar-top2 {
+  margin-top: 10px;
+}
+
+.mar-bott {
+  margin-bottom: 18px;
+}
+
+.padd {
+  padding: 20px;
+}
+
+.padd1 {
+  padding: 5px;
+}
+
+.padd2 {
+  padding: 0 35px;
+}
+
+.padd3 {
+  padding: 0 17px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clr1 {
+  color: #fff;
+}
+
+.clr2 {
+  color: #9492c7;
+}
+
+.bg-clr1 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bg-clr2 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hei {
+  height: 60vh;
+  position: relative;
+}
+
+.center {
+  text-align: center;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.font1 {
+  font-size: 12px;
+}
+
+.font2 {
+  font-size: 60px;
+}
+
+.font3 {
+  font-size: 18px;
+}
+
+.font4 {
+  font-size: 32px;
+}
+
+.font5 {
+  font-size: 14px;
+}
+
+/*.font-wei {
+  font-weight: 100;
+}*/
+
+.icon {
+  border: 1px solid #fff;
+  border-radius: 78px;
+  padding: 0px 9px 3px;
+}
+
+.location-box {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 346px;
+  height: 68px;
+}
+
+.btn-same {
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+  border: 0;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
+.btn-bord {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 0;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
+.btn-padd {
+  padding: 20px 85px;
+}
+
+.btn-padd1 {
+  padding: 20px 42px;
+}
+
+.btn-padd2 {
+  padding: 20px 55px;
+}
+
+.btn-padd3 {
+  padding: 20px 100px;
+}
+
+.btn-padd4 {
+  padding: 20px 140px;
+}
+
+.btn-brd {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.semi-txt {
+  position: absolute;
+  bottom: 17px;
+  left: 0;
+  right: 0;
+  height: 50px;
+  text-shadow: 0 0 2px #bdbdbd;
+  z-index: 99;
+}
+
+.semi-circle {
+  width: 325px;
+  height: 160px;
+  background-color: rgba(0, 0, 0, 0.07);
+  /*border: 1px solid #fff;*/
+  border-top-left-radius: 190px;
+  border-top-right-radius: 190px;
+  border-bottom: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.circles {
+  width: 370px;
+  margin: 0 auto;
+  overflow-y: -webkit-paged-y;
+}
+
+.drop-logo {
+  width: 25px;
+}
+
+.txt1 {
+  position: absolute;
+  bottom: -75px;
+  text-align: center;
+  width: 100%;
+  margin: 15px 0 0;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+.box {
+  border: 1px solid #fff;
+  padding: 25px;
+  margin: 0 35px;
+  border-radius: 10px;
+}
+
+.box1 {
+  width: 360px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.txt-box {
+  width: 206px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.search {
+  width: 25px;
+}
+
+.cross {
+  width: 20px;
+}
+
+.img-wid {
+  width: 120px;
+}
+
+.center-txt-same {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+}
+
+.center-txt1 {
+  width: 220px;
+  height: 50px;
+}
+
+.center-txt2 {
+  width: 300px;
+  height: 75px;
+}
+
+.sub-img {
+  width: 100px;
+  height: 150px;
+  overflow: hidden;
+  margin: 8px auto 0;
+}
+
+.sub-img1 {
+  width: 182px;
+  overflow: hidden;
+  height: 153px;
+  margin: 5px auto 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.derm-imgs {
+  /*width: 412px;
+  height: 370px;*/
+  position: relative;
+}
+
+.derm-imgs1 {
+  /*width: 412px;
+  height: 320px;*/
+  position: relative;
+}
+
+.text1 {
+  position: absolute;
+  top: 0;
+}
+
+.text2 {
+  position: absolute;
+  width: 150px;
+  height: 90px;
+  top: 0;
+  bottom: 0;
+  font-size: 26px;
+  left: 20px;
+  margin: auto;
+}
+
+.wid1 {
+  width: 412px;
+}
+
+.moniter {
+  width: 365px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.needle {
+  width: 5px;
+  height: 125px;
+  background: rgba(255, 255, 255, 0.5);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-animation: move 5s;
+  transform: rotate(0deg);
+  box-shadow: none;
+}
+
+.container {
+  width: 100vw;
+}
+
+/*media queries for responsive*/
+
+@media only screen and (min-width: 680px) {
+  .container {
+    width: 675px;
+    margin: 0 auto;
+  }
+  .right-mar {
+    margin-right: 15px;
+    float: left;
+  }
+  .sub-box1 {
+    width: 30%;
+  }
+  .imp-left {
+    float: left !important;
+  }
+  .sub-img {
+    width: 116px;
+    height: 165px;
+  }
+  .media-mar1 {
+    margin-top: 17px;
+  }
+  .derm-imgs1 {
+    width: 360px;
+    height: 279px;
+    float: left;
+    margin-top: 10px;
+  }
+  .derm-imgs {
+    width: 313px;
+    height: 280px;
+    clear: both;
+    float: left;
+    margin-top: 10px;
+  }
+  .disp-none {
+    display: none;
+  }
+  .wid2 {
+    width: 396px;
+  }
+}
